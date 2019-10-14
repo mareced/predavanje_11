@@ -20,3 +20,7 @@ stevila.remove(3)
 del stevila [0]
 print("spremenjen seznam: ")
 print(stevila)
+
+print ("vsi elementi prek for zanke")
+for stevilo in stevila:
+    print("Sedaj je število " + str(stevilo))
